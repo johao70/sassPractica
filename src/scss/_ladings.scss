@@ -1,11 +1,11 @@
 .content {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    position: relative;                 //posicion de los elementos: static, relative: (se le da la ubicacion), fixed, absolute
+    top: 50%;                           //ubicacion en la pagina
+    transform: translateY(-50%);        //aplica una transformacion 2D o 3D, nos permite rotar, escalar, mover etc
 }
 
 #section_1{
-    @include bg_covertint ($r_deep_blue,$g_deep_blue,$b_deep_blue,$r_light_blue,$g_light_blue,$b_light_blue,$alpha_cover,$cover_picture);
-    height: 100vh;
+    @include bg_covertint ($r_deep_blue,$g_deep_blue,$b_deep_blue,$r_light_blue,$g_light_blue,$b_light_blue,$alpha_cover,$cover_picture);   //mixin importado
+    height: 100vh;              //altura        -100vh: ocupa el 100% de la pantalla altura
     
 }

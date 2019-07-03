@@ -1,8 +1,8 @@
 @mixin text_body {
-    font-family: 'Lato', sans-serif;
-    font-size: 7px;
+    font-family: 'Lato', sans-serif;			//tipo de letra
+    font-size: 7px;								//tamaño de letra
     color: $pure_white;
-    font-weight: $light;
+    font-weight: $light;						//grueso de la letra
 }
 
 @mixin bg-covertint ($r-from, $g-from, $b-from, $r-to, $g-to, $b-to, $alpha, $imgurl, $background-top:"center", $background-left:"center", $background-attachment:"fixed") {

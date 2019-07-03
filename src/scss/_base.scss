@@ -1,7 +1,7 @@
 body {
-    @include text_body;
-    background-color: $black;
-    width: 100%;
-    height: 100%;
-    margin: 0;
+    @include text_body;             //incluyo mixin
+    background-color: $black;       //color de fondo
+    width: 100%;                    //ancho
+    height: 100%;                   //alto
+    margin: 0;                      //margen
 }
